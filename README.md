@@ -33,7 +33,7 @@ https://github.com/AxelMcKenna/Liquorfy
 
 ### Trolle - NZ Grocery Price Aggregation Platform
 
- https://trolle-nz.vercel.app                                                                                                                                                                         https://github.com/AxelMcKenna/Trolle                                                                                                                                                                                                                  
+https://trolle-nz.vercel.app                                                                                                                                                                         https://github.com/AxelMcKenna/Trolle                                                                                                                                                                                                                  
                                                                                                                                                                                                                                                           
   - Built an ingestion pipeline normalizing 22,000+ products across 5 NZ grocery retailers with batched upserts and retry logic                                                                                                                                     
   - Processes 683,000+ price records across 408 stores, tracking 40,000+ price changes with stale-record flagging and alert thresholds
