@@ -17,7 +17,7 @@ Single-cell RNA-seq Analysis Platform
 * * *
 
 ## Projects
-### Liquorfy — NZ Price Aggregation Platform
+### Liquorfy — NZ Liquor Price Aggregation Platform
 
 https://liquorfy.co.nz  
 https://github.com/AxelMcKenna/Liquorfy
@@ -31,9 +31,10 @@ https://github.com/AxelMcKenna/Liquorfy
 
 * * *
 
- https://grocify.co.nz                                                                                                                                                                                                                                             
-  https://github.com/AxelMcKenna/Grocify                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                    
+### Trolle - NZ Grocery Price Aggregation Platform
+
+ https://trolle-nz.vercel.app                                                                                                                                                                         https://github.com/AxelMcKenna/Trolle                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                          
   - Built an ingestion pipeline normalizing 22,000+ products across 5 NZ grocery retailers with batched upserts and retry logic                                                                                                                                     
   - Processes 683,000+ price records across 408 stores, tracking 40,000+ price changes with stale-record flagging and alert thresholds
   - Engineered a cross-chain product matching engine using UnionFind to rank stores by total cart cost with loyalty and fulfillment awareness                                                                                                                       
