@@ -31,19 +31,18 @@ https://github.com/AxelMcKenna/Liquorfy
 
 * * *
 
-### TERRA — Map-first Farm Intelligence (Paddock Monitoring)
+ https://grocify.co.nz                                                                                                                                                                                                                                             
+  https://github.com/AxelMcKenna/Grocify                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                    
+  - Built an ingestion pipeline normalizing 22,000+ products across 5 NZ grocery retailers with batched upserts and retry logic                                                                                                                                     
+  - Processes 683,000+ price records across 408 stores, tracking 40,000+ price changes with stale-record flagging and alert thresholds
+  - Engineered a cross-chain product matching engine using UnionFind to rank stores by total cart cost with loyalty and fulfillment awareness                                                                                                                       
+  - Designed a 14-table schema with 35 composite, geospatial, and temporal indexes achieving 99.99% index scan ratio across core tables                                                                                                                             
+  - Reduced price lookups from 170ms to 0.12ms across 683,000+ records, achieving O(log n) complexity through targeted B-tree indexing
+  - Implemented geospatial store search over 408 locations using PostGIS GIST indexing with Redis-backed caching
 
-https://github.com/AxelMcKenna/TERRA
+***
 
-TERRA is a map-first farm intelligence platform for paddock monitoring. It combines a FastAPI backend, Celery worker pipeline + scheduler, and a React + Vite frontend to compute paddock-level NDVI signals, attach weather context, and generate weekly recommendations (current status: dev-facing MVP, no auth yet).
-
-  * Farm + paddock management with GeoJSON import workflows
-  * Paddock observation pipeline (NDVI aggregation by paddock; currently deterministic synthetic values for MVP)
-  * 7-day weather context (OpenWeather API optional; synthetic fallback)
-  * Weekly rule-based recommendations (e.g., `GRAZE_NOW`, `AVOID_WATERLOG`, `MONITOR_STRESS`, `LOW_DATA`)
-  * Full-stack local dev via Docker Compose (web + api + postgres/postgis + redis + worker + scheduler)
-
-* * *
 
 ### EDEN — Personal AI System
 
@@ -54,19 +53,6 @@ Local-first AI assistant exploring agent-based workflows and real-world task exe
   * Multi-tool LLM architecture with structured tool invocation
   * Focus on automating workflows and integrating personal data streams
   * Exploring agent orchestration beyond chat interfaces
-
-* * *
-
-### Eden-Write — Document AI Tooling
-
-https://github.com/AxelMcKenna/Eden-Write
-
-AI-assisted writing system designed for structured document workflows.
-
-  * Extension-style interface for document editing environments
-  * Focus on structured writing, scaffolding, and workflow acceleration
-
-* * *
 
 ### Ara Finder — Alpine Weather Model
 
