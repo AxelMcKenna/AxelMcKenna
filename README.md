@@ -7,7 +7,7 @@
 **ANVIL:** Limit order book and matching engine in C++20. Phase 1 functionally complete with 33 tests covering crosses, partial fills, multi-level walks, and FIFO. Benchmark baseline and LOBSTER replay in progress.
 → [github.com/AxelMcKenna/ANVIL](https://github.com/AxelMcKenna/ANVIL)
 
-**Atlas:** AI co-pilot for NZ building consent workflows. Pre-lodgement plan analysis, RFI prediction, inspection tracking, CCC sign-off. Targeting Canterbury BCAs.
+**ATLAS:** AI co-pilot for NZ building consent workflows. Pre-lodgement plan analysis, RFI prediction, inspection tracking, CCC sign-off. Targeting Canterbury BCAs.
 → [github.com/AxelMcKenna/saasathon](https://github.com/AxelMcKenna/saasathon)
 
 ## Selected Work
