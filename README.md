@@ -2,7 +2,7 @@
 
 ## Now
 
-**Malaghan Institute:** Single-cell RNA-seq platform. Content-addressed checkpointing modelled on Git object storage (98% per-node data reduction, ~50× faster). Custom DAG orchestration with parallel execution and checkpoint rewind/resume. Agentic RAG with a 6-phase execution loop; Recall@5 = 1.0 on 45 curated queries.
+**Malaghan Institute (Work):** Single-cell RNA-seq platform. Content-addressed checkpointing modelled on Git object storage (98% per-node data reduction, ~50× faster). Custom DAG orchestration with parallel execution and checkpoint rewind/resume. Agentic RAG with a 6-phase execution loop; Recall@5 = 1.0 on 45 curated queries.
 
 **ANVIL:** Limit order book and matching engine in C++20. Phase 1 functionally complete with 33 tests covering crosses, partial fills, multi-level walks, and FIFO. Benchmark baseline and LOBSTER replay in progress.
 → [github.com/AxelMcKenna/ANVIL](https://github.com/AxelMcKenna/ANVIL)
