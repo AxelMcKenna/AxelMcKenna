@@ -3,7 +3,7 @@
 Software engineering student at the University of Canterbury. I build data-heavy, performance-critical systems.
 
 ## Now
-**Malaghan Institute (work):** Single-cell RNA-seq platform. Content-addressed checkpointing modelled on Git object storage (98% per-node data reduction, ~50× faster re-execution). Custom DAG orchestration with parallel execution and checkpoint rewind/resume. Agentic RAG with a 6-phase execution loop; Recall@5 = 1.0 on 45 curated queries.
+**Malaghan Institute of Medical Research(work):** Single-cell RNA-seq platform. Content-addressed checkpointing modelled on Git object storage (98% per-node data reduction, ~50× faster re-execution). Custom DAG orchestration with parallel execution and checkpoint rewind/resume. Prototyping an agentic coding layer to increase research velocity by pulling new methods into the platform on the fly.
 
 **ANVIL:** Limit order book and matching engine in C++20. Phase 1 functionally complete, with 33 tests covering crosses, partial fills, multi-level walks, and FIFO ordering. Benchmark baseline and LOBSTER replay in progress.
 → [github.com/AxelMcKenna/ANVIL](https://github.com/AxelMcKenna/ANVIL)
