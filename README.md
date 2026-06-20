@@ -1,6 +1,6 @@
 # Axel McKenna
 
-Software engineering student at the University of Canterbury. I build data-heavy, performance-critical systems.
+Software engineering student at the University of Canterbury. I like to build data-heavy, performance-critical systems.
 
 ## Now
 **Malaghan Institute of Medical Research(work):** Single-cell RNA-seq platform. Content-addressed checkpointing modelled on Git object storage (98% per-node data reduction, ~50× faster re-execution). Custom DAG orchestration with parallel execution and checkpoint rewind/resume. Prototyping an agentic coding layer to increase research velocity by pulling new methods into the platform on the fly.
