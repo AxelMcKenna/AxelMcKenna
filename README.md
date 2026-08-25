@@ -15,6 +15,3 @@ Software engineering student at the University of Canterbury. I like to build da
 
 ## Stack
 C++ · Metal · Python · TypeScript · C# · PostgreSQL/PostGIS · FastAPI · React · PyTorch · Docker
-
-## Elsewhere
-[LinkedIn](https://www.linkedin.com/in/axel-mckenna)
