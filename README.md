@@ -27,7 +27,7 @@ Also working on a standalone PCB version.
 
 <br>
 
-**[Liquorfy](https://github.com/AxelMcKenna/Liquorfy)** - NZ-wide price comparison for alcohol. [(liquorfy.co.nz)](https://liquorfy.co.nz)
+**[Liquorfy](https://github.com/AxelMcKenna/Liquorfy)** - NZ-wide price comparison for alcohol - [liquorfy.co.nz](https://liquorfy.co.nz)
 
 - Built ingestion and product-matching pipelines for 62,000+ products from 12 retailers, deduplicated into ~20,000 canonical products.
 - Tracks 1.6M+ prices and 6M+ price-change events across 1,400+ runs. 
@@ -36,7 +36,7 @@ Also working on a standalone PCB version.
 
 <br>
 
-**[DAMASCUS](https://github.com/AxelMcKenna/DAMASCUS)** - LLM inference engine for Apple Silicon, written in C++20. [(damascus-llm.dev)](https://damascus-llm.dev)
+**[DAMASCUS](https://github.com/AxelMcKenna/DAMASCUS)** - LLM inference engine for Apple Silicon, written in C++20 - [damascus-llm.dev](https://damascus-llm.dev)
 
 - Implemented GGUF loading, byte-level BPE, Q4_K_M/Q6_K dequantization, grouped-query attention, KV-cache execution, and an end-to-end transformer forward pass. 
 - Checked the CPU path against a same-weights Hugging Face reference, with matching top-1 tokens and near-identical layer outputs. 
