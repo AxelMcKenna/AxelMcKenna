@@ -6,6 +6,8 @@ Software engineering at the University of Canterbury. Generally interested in hi
 
 **ARRO - Co-founder & CEO.** Building software for New Zealand's building-consent process. We analyse architectural drawings and their supporting documentation to preemptively raise likely RFIs before architects lodge for consent.
 
+Lead ARRO from hackathon win to it's first revenue in 5 months.
+
 → [arro.co.nz](https://arro.co.nz)
 
 **Halter - Incoming Platform engineer (summer 2026–27).**
