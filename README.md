@@ -18,7 +18,11 @@ Lead ARRO from hackathon win to it's first revenue in 5 months.
 
 Also working on a standalone Daisy Seed version; the firmware and PCB are still at the prototype stage.
 
-**[Liquorfy](https://github.com/AxelMcKenna/Liquorfy)** - NZ-wide price comparison across web and iOS. Built ingestion and product-matching pipelines for 62,000+ products from 12 retailers, deduplicated into ~20,000 canonical products. Tracks 1.6M+ prices and 6M+ price-change events across 1,400+ runs. PostGIS and Redis back geospatial search over 1,365 stores in 80 regions, with normalized per-100ml and per-standard-drink pricing. Indexed lookups measured at ~0.07 ms/row on the 1.6M-row price table.
+**[Liquorfy](https://github.com/AxelMcKenna/Liquorfy)** - NZ-wide price comparison across web and iOS. 
+-Built ingestion and product-matching pipelines for 62,000+ products from 12 retailers, deduplicated into ~20,000 canonical products.
+-Tracks 1.6M+ prices and 6M+ price-change events across 1,400+ runs. 
+-PostGIS and Redis back geospatial search over 1,365 stores in 80 regions, with normalized per-100ml and per-standard-drink pricing. 
+-Indexed lookups measured at ~0.07 ms/row on the 1.6M-row price table.
 
 → [liquorfy.co.nz](https://liquorfy.co.nz)
 
@@ -30,7 +34,11 @@ Currently looking at Metal execution, AMX-accelerated prefill, and CPU/GPU sched
 
 ## Previously
 
-**Malaghan Institute of Medical Research (2025–26).** Worked on a single-cell RNA-seq analysis platform, first as an intern and then part-time. Built a distributed runtime for pipeline steps on containerized GPU workers, with 5–20× speedups on datasets above ~50k cells. Developed DAG-based workflow execution with parallel scheduling, dependency tracking, and checkpoint rewind/resume. Content-addressed checkpointing reduced per-node storage from ~1.5 GB to ~27 MB (~98%). Also worked on a tool-using RAG pipeline and a sandboxed prototype for generating new analysis methods from notebooks or natural-language specs.
+**Malaghan Institute of Medical Research (2025–26).** Worked on a single-cell RNA-seq analysis platform, first as an intern and then part-time. 
+
+- Built a distributed runtime for pipeline steps on containerized GPU workers, with 5–20× speedups on datasets above ~50k cells.
+- Developed DAG-based workflow execution with parallel scheduling, dependency tracking, and checkpoint rewind/resume.
+- Content-addressed checkpointing reduced per-node storage from ~1.5 GB to ~27 MB (~98%). Also worked on a tool-using RAG pipeline and a sandboxed prototype for generating new analysis methods from notebooks or natural-language specs.
 
 3/3 hackathon winner · 2nd place in the [Entre Enterprise Challenge](https://www.anz.com.au/newsroom/new-zealand/2026/10/students-smart-glasses-win-2026-entre-enterprise-challenge/).
 
