@@ -38,8 +38,6 @@ Also working on a standalone PCB version.
 
 Currently looking at Metal execution, AMX-accelerated prefill, and CPU/GPU scheduling on M1.
 
-<br>
-
 ## Previous Work
 
 **Malaghan Institute of Medical Research (2025–26).** Worked on a single-cell RNA-seq analysis platform, first as an intern and then part-time. 
@@ -47,16 +45,12 @@ Currently looking at Metal execution, AMX-accelerated prefill, and CPU/GPU sched
 - Built a distributed runtime for pipeline steps on containerized GPU workers, with 5–20× speedups on datasets above ~50k cells.
 - Developed DAG-based workflow execution with parallel scheduling, dependency tracking, and checkpoint rewind/resume.
 - Content-addressed checkpointing reduced per-node storage from ~1.5 GB to ~27 MB (~98%). Also worked on a tool-using RAG pipeline and a sandboxed prototype for generating new analysis methods from notebooks or natural-language specs.
-  
-<br> 
 
 ## Other
 
 - 3/3 hackathon winner · 2nd place in the [Entre Enterprise Challenge](https://www.anz.com.au/newsroom/new-zealand/2026/10/students-smart-glasses-win-2026-entre-enterprise-challenge/).
 
 - Open source contributor to scverse's [Scanpy](https://scanpy.scverse.org/en/stable/)
-
-<br>
  
 ## Stack
 
