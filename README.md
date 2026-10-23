@@ -4,11 +4,7 @@ Software engineering at the University of Canterbury. Generally interested in hi
 
 ## Now
 
-**[ARRO](https://arro.co.nz) - Co-founder & CEO.** Building software for New Zealand's building-consent process. We analyse architectural drawings and their supporting documentation to preemptively raise likely RFIs before architects lodge for consent.
-
-Lead ARRO from hackathon win to it's first revenue in 5 months.
-
-<br>
+**[ARRO](https://arro.co.nz) - Co-founder & CEO.** Building software for New Zealand's building-consent process. We analyse architectural drawings and their supporting documentation to preemptively raise likely RFIs before architects lodge for consent. Lead ARRO from hackathon win to it's first revenue in 5 months.
 
 **Halter - Incoming SWE intern (summer 2026–27).**
 
@@ -54,9 +50,7 @@ Currently looking at Metal execution, AMX-accelerated prefill, and CPU/GPU sched
 <br> 
 
 3/3 hackathon winner · 2nd place in the [Entre Enterprise Challenge](https://www.anz.com.au/newsroom/new-zealand/2026/10/students-smart-glasses-win-2026-entre-enterprise-challenge/).
-
-
-<br> 
+ 
 
 ## Stack
 
