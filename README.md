@@ -39,7 +39,7 @@ Currently looking at Metal execution, AMX-accelerated prefill, and CPU/GPU sched
 
 <br>
 
-## Previously
+## Previous Work
 
 **Malaghan Institute of Medical Research (2025–26).** Worked on a single-cell RNA-seq analysis platform, first as an intern and then part-time. 
 
@@ -49,7 +49,11 @@ Currently looking at Metal execution, AMX-accelerated prefill, and CPU/GPU sched
   
 <br> 
 
+## Other
+
 3/3 hackathon winner · 2nd place in the [Entre Enterprise Challenge](https://www.anz.com.au/newsroom/new-zealand/2026/10/students-smart-glasses-win-2026-entre-enterprise-challenge/).
+
+Open source contributor to scverses [scanpy](https://scanpy.scverse.org/en/stable/)
  
 
 ## Stack
