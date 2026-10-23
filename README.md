@@ -4,7 +4,7 @@ Software engineering at the University of Canterbury. Generally interested in hi
 
 ## Now
 
-**ARRO - Co-founder & CEO.** Building software for New Zealand's building-consent process. We analyse architectural drawings and their supporting documentation to preemptively raise RFI before architects lodge for consent.
+**ARRO - Co-founder & CEO.** Building software for New Zealand's building-consent process. We analyse architectural drawings and their supporting documentation to preemptively raise likely RFIs before architects lodge for consent.
 
 → [arro.co.nz](https://arro.co.nz)
 
