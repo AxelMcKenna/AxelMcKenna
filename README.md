@@ -51,6 +51,7 @@ Currently looking at Metal execution, AMX-accelerated prefill, and CPU/GPU sched
 - Developed DAG-based workflow execution with parallel scheduling, dependency tracking, and checkpoint rewind/resume.
 - Content-addressed checkpointing reduced per-node storage from ~1.5 GB to ~27 MB (~98%). Also worked on a tool-using RAG pipeline and a sandboxed prototype for generating new analysis methods from notebooks or natural-language specs.
   
+<br> 
 
 3/3 hackathon winner · 2nd place in the [Entre Enterprise Challenge](https://www.anz.com.au/newsroom/new-zealand/2026/10/students-smart-glasses-win-2026-entre-enterprise-challenge/).
 
