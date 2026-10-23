@@ -21,10 +21,10 @@ Also working on a standalone PCB version.
 
 **[Liquorfy](https://github.com/AxelMcKenna/Liquorfy)** - NZ-wide price comparison across web and iOS. 
 
--Built ingestion and product-matching pipelines for 62,000+ products from 12 retailers, deduplicated into ~20,000 canonical products.
--Tracks 1.6M+ prices and 6M+ price-change events across 1,400+ runs. 
--PostGIS and Redis back geospatial search over 1,365 stores in 80 regions, with normalized per-100ml and per-standard-drink pricing. 
--Indexed lookups measured at ~0.07 ms/row on the 1.6M-row price table.
+- Built ingestion and product-matching pipelines for 62,000+ products from 12 retailers, deduplicated into ~20,000 canonical products.
+- Tracks 1.6M+ prices and 6M+ price-change events across 1,400+ runs. 
+- PostGIS and Redis back geospatial search over 1,365 stores in 80 regions, with normalized per-100ml and per-standard-drink pricing. 
+- Indexed lookups measured at ~0.07 ms/row on the 1.6M-row price table.
 
 → [liquorfy.co.nz](https://liquorfy.co.nz)
 
