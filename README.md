@@ -10,6 +10,8 @@ Building software for New Zealand's building-consent process. We analyse archite
 
 **Halter - Incoming SWE intern (summer 2026–27).**
 
+<br>
+
 ## Projects
 
 **[AFX-1000](https://github.com/AxelMcKenna/afx-1000)** - Rebuilding the [Pioneer RMX-1000](https://www.pioneerdj.com/en/product/dj-effectors/rmx-1000/) effects unit in C++20.
@@ -36,6 +38,8 @@ Also working on a standalone PCB version.
 - Checked the CPU path against a same-weights Hugging Face reference, with matching top-1 tokens and near-identical layer outputs. 
 
 Currently looking at Metal execution, AMX-accelerated prefill, and CPU/GPU scheduling on M1.
+
+<br>
 
 ## Previous Work
 
