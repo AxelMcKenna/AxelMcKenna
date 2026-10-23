@@ -1,27 +1,33 @@
 # Axel McKenna
 
-Software Engineering (Hons) student at the University of Canterbury. I build systems where performance, correctness and scale matter - from inference runtimes and distributed compute to real-time audio and production data pipelines.
+Software engineering at the University of Canterbury. Generally interested in high-performance computing, distributed systems and AI infra. 
 
 ## Now
 
-**[ARRO](https://arro.co.nz) - Co-founder & CEO.** Building AI for New Zealand's building-consent process: drawing-aware checks before lodgement and evidence-backed responses to council requests for information (RFIs). The platform has processed 1M+ real RFIs.
+**ARRO - Co-founder & CEO.** Building software for New Zealand's building-consent process. We analyse architectural drawings and their supporting documentation to preemptively raise RFI before architects lodge for consent.
 
-**Halter - Incoming, Platform engineering.** Joining the Platform team for the 2026–27 summer.
+→ [arro.co.nz](https://arro.co.nz)
 
-## Selected Engineering
+**Halter - Incoming Platform engineer (summer 2026–27).** Joining the Platform team over summer.
 
-**[RMX-1000-Clone](https://github.com/AxelMcKenna/RMX-1000-Clone) — Real-time audio DSP.** C++20 effects engine powering a native macOS app and AU/VST3 plugins, with direct rekordbox audio capture, 10 Scene FX, multiband isolation, beat synchronization and sample playback. The audio callback avoids allocation and locking. Extending the engine toward standalone Daisy Seed hardware, with an ARM firmware cross-build and draft KiCad PCB layout; no physical hardware validation yet.
+## Projects
 
-**[DAMASCUS](https://github.com/AxelMcKenna/DAMASCUS) — LLM inference on Apple Silicon.** From-scratch C++20 inference engine targeting M1. Implemented GGUF loading, byte-level BPE, Q4_K_M/Q6_K dequantization and a transformer forward pass with grouped-query attention and KV-cache execution. Verified the CPU path against a same-weights Hugging Face reference (per-layer cosine 1.0000000; matching top-1 token). Metal execution and AMX-accelerated prefill remain research work. [Site](https://damascus-llm.dev)
+**[RMX-1000-Clone](https://github.com/AxelMcKenna/RMX-1000-Clone)** — Rebuilding the Pioneer RMX-1000 effects unit in C++20. Real-time DSP engine with multiband isolation, beat-synced effects, sample playback, and 10 Scene FX. Native macOS app, AU/VST3 plugins, and direct audio capture from rekordbox. The audio callback runs without heap allocations or locks. Also working on a standalone Daisy Seed version; the firmware and PCB are still at the prototype stage.
 
-**[Liquorfy](https://github.com/AxelMcKenna/Liquorfy) — Nationwide price-data infrastructure.** Built ingestion and entity resolution across 62,000+ products from 12 retailers, matched to ~20,000 canonical products. Tracks 1.6M+ prices and 6M+ price-change events; PostGIS/Redis support location-aware queries across 1,365 stores. [Live](https://liquorfy.co.nz)
+**[Liquorfy](https://github.com/AxelMcKenna/Liquorfy)** — NZ-wide price comparison across web and iOS. Built ingestion and product-matching pipelines for 62,000+ products from 12 retailers, deduplicated into ~20,000 canonical products. Tracks 1.6M+ prices and 6M+ price-change events across 1,400+ runs. PostGIS and Redis back geospatial search over 1,365 stores in 80 regions, with normalized per-100ml and per-standard-drink pricing. Indexed lookups measured at ~0.07 ms/row on the 1.6M-row price table.
 
-**Malaghan Institute of Medical Research — Distributed scientific computing (2025–26).** Built a containerized GPU-worker execution runtime for single-cell RNA-seq pipelines, producing 5–20× speedups on datasets of ~50,000+ cells. Content-addressed checkpointing reduced per-node storage from ~1.5 GB to ~27 MB (~98%); DAG orchestration supports parallel execution and rewind/resume.
+→ [liquorfy.co.nz](https://liquorfy.co.nz)
 
-## Elsewhere
+**[DAMASCUS](https://github.com/AxelMcKenna/DAMASCUS)** — LLM inference engine for Apple Silicon, written in C++20. Implemented GGUF loading, byte-level BPE, Q4_K_M/Q6_K dequantization, grouped-query attention, KV-cache execution, and an end-to-end transformer forward pass. Checked the CPU path against a same-weights Hugging Face reference, with matching top-1 tokens and near-identical layer outputs. Currently looking at Metal execution, AMX-accelerated prefill, and CPU/GPU scheduling on M1.
 
-3× hackathon winner · 2nd place, Entre Enterprise Challenge.
+→ [damascus-llm.dev](https://damascus-llm.dev)
+
+## Previously
+
+**Malaghan Institute of Medical Research (2025–26).** Worked on a single-cell RNA-seq analysis platform, first as an intern and then part-time. Built a distributed runtime for pipeline steps on containerized GPU workers, with 5–20× speedups on datasets above ~50k cells. Developed DAG-based workflow execution with parallel scheduling, dependency tracking, and checkpoint rewind/resume. Content-addressed checkpointing reduced per-node storage from ~1.5 GB to ~27 MB (~98%). Also worked on a tool-using RAG pipeline and a sandboxed prototype for generating new analysis methods from notebooks or natural-language specs.
+
+3/3 hackathon winner · 2nd place, [Entre Enterprise Challenge](https://www.anz.com.au/newsroom/new-zealand/2026/10/students-smart-glasses-win-2026-entre-enterprise-challenge/).
 
 ## Stack
 
-C++20 · Metal · Python · TypeScript · Swift · PostgreSQL/PostGIS · Redis · FastAPI · Docker · CMake · React
+C++20 · Metal · Python · TypeScript · Swift · C# · PostgreSQL/PostGIS · Redis · FastAPI · PyTorch · Docker · CMake · React
