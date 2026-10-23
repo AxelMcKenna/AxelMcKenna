@@ -4,7 +4,6 @@
 
 Software engineering at the University of Canterbury. Generally interested in high-performance computing, distributed systems and AI infra. 
 
-<br>
 
 ## Now
 
@@ -14,7 +13,6 @@ Building software for New Zealand's building-consent process. We analyse archite
 
 **Halter - Incoming SWE intern (summer 2026–27).**
 
-<br>
 
 ## Projects
 
