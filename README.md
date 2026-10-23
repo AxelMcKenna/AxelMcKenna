@@ -14,7 +14,7 @@ Lead ARRO from hackathon win to it's first revenue in 5 months.
 
 ## Projects
 
-**[AFX-1000](https://github.com/AxelMcKenna/afx-1000)** - Rebuilding the Pioneer RMX-1000 effects unit in C++20. Real-time DSP engine with multiband isolation, beat-synced effects, sample playback, and 10 Scene FX. Native macOS app, AU/VST3 plugins, and direct audio capture from rekordbox. The audio callback runs without heap allocations or locks. 
+**[AFX-1000](https://github.com/AxelMcKenna/afx-1000)** - Rebuilding the [Pioneer RMX-1000](https://www.pioneerdj.com/en/product/dj-effectors/rmx-1000/) effects unit in C++20. Real-time DSP engine with multiband isolation, beat-synced effects, sample playback, and 10 Scene FX. Native macOS app, AU/VST3 plugins, and direct audio capture from rekordbox. The audio callback runs without heap allocations or locks. 
 
 Also working on a standalone Daisy Seed version; the firmware and PCB are still at the prototype stage.
 
