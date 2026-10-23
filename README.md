@@ -8,7 +8,7 @@ Software engineering at the University of Canterbury. Generally interested in hi
 
 → [arro.co.nz](https://arro.co.nz)
 
-**Halter - Incoming Platform engineer (summer 2026–27).
+**Halter - Incoming Platform engineer (summer 2026–27).**
 
 ## Projects
 
