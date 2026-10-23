@@ -1,17 +1,27 @@
 # Axel McKenna
-Software engineering student at the University of Canterbury. I like to build data-heavy, performance-critical systems.
+
+Software Engineering (Hons) student at the University of Canterbury. I build systems where performance, correctness and scale matter - from inference runtimes and distributed compute to real-time audio and production data pipelines.
 
 ## Now
-**Malaghan Institute of Medical Research (work):** Single-cell RNA-seq platform, now part-time after a full-time internship. Built a distributed execution runtime dispatching pipeline steps across containerized GPU workers - 5-20x speedups on datasets over ~50k cells. Prototyping a sandboxed LLM-authoring pipeline that generates new pipeline methods (e.g. integration) from a natural-language spec or an uploaded notebook.
 
-**DAMASCUS:** LLM inference engine for Apple Silicon in C++20 and Metal. GGUF loading, custom transformer kernels, grouped-query attention, KV-cache execution, end-to-end forward pass with HuggingFace-aligned logits (≤1e-3 error). Researching AMX-accelerated prefill and hybrid GPU/AMX scheduling on M1.
-→ [damascus-llm.dev](https://damascus-llm.dev) · [github.com/AxelMcKenna/DAMASCUS](https://github.com/AxelMcKenna/DAMASCUS)
+**[ARRO](https://arro.co.nz) - Co-founder & CEO.** Building AI for New Zealand's building-consent process: drawing-aware checks before lodgement and evidence-backed responses to council requests for information (RFIs). The platform has processed 1M+ real RFIs.
 
-## Selected Work
-**Malaghan Institute (internship, Nov 2025 - Feb 2026):** Content-addressed checkpointing modelled on Git object storage, cutting per-node storage from ~1.5GB to ~27MB (~98% reduction). DAG-based workflow orchestration engine with parallel execution, dependency tracking, and checkpoint rewind/resume. Agentic RAG pipeline with multi-stage execution - intent classification, tool use, retrieval, generation, verification.
+**Halter - Incoming, Platform engineering.** Joining the Platform team for the 2026–27 summer.
 
-**Liquorfy:** NZ-wide liquor price comparison (web + iOS). Ingestion pipeline normalizing 62,000+ products across 12 retailers into a unified schema, deduplicated to 20,000 canonical products for cross-retailer matching. 1.6M+ live prices and 6M+ price-change events tracked across 1,400+ ingestion runs. Geospatial search over 1,365 stores (80 regions) via PostGIS geography indexes with Redis caching. Pricing normalization engine standardizing per-100ml / per-standard-drink across 51,000+ products. Indexed lookups at ~0.07 ms/row over a 1.6M-row table.
-→ [liquorfy.co.nz](https://liquorfy.co.nz) · [github.com/AxelMcKenna/Liquorfy](https://github.com/AxelMcKenna/Liquorfy)
+## Selected Engineering
+
+**[RMX-1000-Clone](https://github.com/AxelMcKenna/RMX-1000-Clone) — Real-time audio DSP.** C++20 effects engine powering a native macOS app and AU/VST3 plugins, with direct rekordbox audio capture, 10 Scene FX, multiband isolation, beat synchronization and sample playback. The audio callback avoids allocation and locking. Extending the engine toward standalone Daisy Seed hardware, with an ARM firmware cross-build and draft KiCad PCB layout; no physical hardware validation yet.
+
+**[DAMASCUS](https://github.com/AxelMcKenna/DAMASCUS) — LLM inference on Apple Silicon.** From-scratch C++20 inference engine targeting M1. Implemented GGUF loading, byte-level BPE, Q4_K_M/Q6_K dequantization and a transformer forward pass with grouped-query attention and KV-cache execution. Verified the CPU path against a same-weights Hugging Face reference (per-layer cosine 1.0000000; matching top-1 token). Metal execution and AMX-accelerated prefill remain research work. [Site](https://damascus-llm.dev)
+
+**[Liquorfy](https://github.com/AxelMcKenna/Liquorfy) — Nationwide price-data infrastructure.** Built ingestion and entity resolution across 62,000+ products from 12 retailers, matched to ~20,000 canonical products. Tracks 1.6M+ prices and 6M+ price-change events; PostGIS/Redis support location-aware queries across 1,365 stores. [Live](https://liquorfy.co.nz)
+
+**Malaghan Institute of Medical Research — Distributed scientific computing (2025–26).** Built a containerized GPU-worker execution runtime for single-cell RNA-seq pipelines, producing 5–20× speedups on datasets of ~50,000+ cells. Content-addressed checkpointing reduced per-node storage from ~1.5 GB to ~27 MB (~98%); DAG orchestration supports parallel execution and rewind/resume.
+
+## Elsewhere
+
+3× hackathon winner · 2nd place, Entre Enterprise Challenge.
 
 ## Stack
-C++ · Metal · Python · TypeScript · C# · PostgreSQL/PostGIS · FastAPI · React · PyTorch · Docker
+
+C++20 · Metal · Python · TypeScript · Swift · PostgreSQL/PostGIS · Redis · FastAPI · Docker · CMake · React
