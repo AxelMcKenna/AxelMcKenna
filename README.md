@@ -55,7 +55,7 @@ Currently looking at Metal execution, AMX-accelerated prefill, and CPU/GPU sched
 
 - 3/3 hackathon winner · 2nd place in the [Entre Enterprise Challenge](https://www.anz.com.au/newsroom/new-zealand/2026/10/students-smart-glasses-win-2026-entre-enterprise-challenge/).
 
-- Open source contributor to scverse's [scanpy](https://scanpy.scverse.org/en/stable/)
+- Open source contributor to scverse's [Scanpy](https://scanpy.scverse.org/en/stable/)
  
 
 ## Stack
