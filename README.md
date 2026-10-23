@@ -37,8 +37,6 @@ Also working on a standalone PCB version.
 
 Currently looking at Metal execution, AMX-accelerated prefill, and CPU/GPU scheduling on M1.
 
-<br>
-
 ## Previous Work
 
 **Malaghan Institute of Medical Research (2025–26).** Worked on a single-cell RNA-seq analysis platform, first as an intern and then part-time. 
