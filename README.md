@@ -10,6 +10,13 @@ Building software for New Zealand's building-consent process. We analyse archite
 
 **Halter - Incoming SWE intern (summer 2026–27).**
 
+## Previous Work
+
+**Malaghan Institute of Medical Research (2025–26). Worked on a single-cell RNA-seq analysis platform, first as an intern and then part-time.**
+
+- Built a distributed runtime for pipeline steps on containerized GPU workers, with 5–20× speedups on datasets above ~50k cells.
+- Developed DAG-based workflow execution with parallel scheduling, dependency tracking, and checkpoint rewind/resume.
+- Content-addressed checkpointing reduced per-node storage from ~1.5 GB to ~27 MB (~98%). Also worked on a tool-using RAG pipeline and a sandboxed prototype for generating new analysis methods from notebooks or natural-language specs.
 
 ## Projects
 
@@ -39,14 +46,6 @@ Also working on a standalone PCB version.
 - Checked the CPU path against a same-weights Hugging Face reference, with matching top-1 tokens and near-identical layer outputs. 
 
 Currently researching Metal execution, AMX-accelerated prefill, and CPU/GPU scheduling on M1.
-
-## Previous Work
-
-**Malaghan Institute of Medical Research (2025–26). Worked on a single-cell RNA-seq analysis platform, first as an intern and then part-time.**
-
-- Built a distributed runtime for pipeline steps on containerized GPU workers, with 5–20× speedups on datasets above ~50k cells.
-- Developed DAG-based workflow execution with parallel scheduling, dependency tracking, and checkpoint rewind/resume.
-- Content-addressed checkpointing reduced per-node storage from ~1.5 GB to ~27 MB (~98%). Also worked on a tool-using RAG pipeline and a sandboxed prototype for generating new analysis methods from notebooks or natural-language specs.
 
 ## Other
 
