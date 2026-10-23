@@ -43,6 +43,8 @@ Currently looking at Metal execution, AMX-accelerated prefill, and CPU/GPU sched
 
 → [damascus-llm.dev](https://damascus-llm.dev)
 
+<br>
+
 ## Previously
 
 **Malaghan Institute of Medical Research (2025–26).** Worked on a single-cell RNA-seq analysis platform, first as an intern and then part-time. 
@@ -54,6 +56,9 @@ Currently looking at Metal execution, AMX-accelerated prefill, and CPU/GPU sched
 <br> 
 
 3/3 hackathon winner · 2nd place in the [Entre Enterprise Challenge](https://www.anz.com.au/newsroom/new-zealand/2026/10/students-smart-glasses-win-2026-entre-enterprise-challenge/).
+
+
+<br> 
 
 ## Stack
 
