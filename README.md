@@ -8,6 +8,8 @@ Software engineering at the University of Canterbury. Generally interested in hi
 
 Lead ARRO from hackathon win to it's first revenue in 5 months.
 
+<br>
+
 **Halter - Incoming Platform engineer (summer 2026–27).**
 
 ## Projects
@@ -19,6 +21,8 @@ Lead ARRO from hackathon win to it's first revenue in 5 months.
 
 Also working on a standalone PCB version.
 
+<br>
+
 **[Liquorfy](https://github.com/AxelMcKenna/Liquorfy)** - NZ-wide price comparison across web and iOS. 
 
 - Built ingestion and product-matching pipelines for 62,000+ products from 12 retailers, deduplicated into ~20,000 canonical products.
@@ -27,6 +31,8 @@ Also working on a standalone PCB version.
 - Indexed lookups measured at ~0.07 ms/row on the 1.6M-row price table.
 
 → [liquorfy.co.nz](https://liquorfy.co.nz)
+
+<br>
 
 **[DAMASCUS](https://github.com/AxelMcKenna/DAMASCUS)** - LLM inference engine for Apple Silicon, written in C++20. 
 
