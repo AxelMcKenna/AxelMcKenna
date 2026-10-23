@@ -2,6 +2,8 @@
 
 Software engineering at the University of Canterbury. Generally interested in high-performance computing, distributed systems and AI infra. 
 
+<br>
+
 ## Now
 
 **[ARRO](https://arro.co.nz) - Co-founder & CEO.** 
