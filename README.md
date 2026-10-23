@@ -10,7 +10,7 @@ Lead ARRO from hackathon win to it's first revenue in 5 months.
 
 <br>
 
-**Halter - Incoming Platform engineer (summer 2026–27).**
+**Halter - Incoming SWE intern (summer 2026–27).**
 
 ## Projects
 
