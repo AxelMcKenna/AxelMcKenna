@@ -12,7 +12,7 @@ Software engineering at the University of Canterbury. Generally interested in hi
 
 ## Projects
 
-**[RMX-1000-Clone](https://github.com/AxelMcKenna/RMX-1000-Clone)** - Rebuilding the Pioneer RMX-1000 effects unit in C++20. Real-time DSP engine with multiband isolation, beat-synced effects, sample playback, and 10 Scene FX. Native macOS app, AU/VST3 plugins, and direct audio capture from rekordbox. The audio callback runs without heap allocations or locks. 
+**[AFX-1000](https://github.com/AxelMcKenna/afx-1000)** - Rebuilding the Pioneer RMX-1000 effects unit in C++20. Real-time DSP engine with multiband isolation, beat-synced effects, sample playback, and 10 Scene FX. Native macOS app, AU/VST3 plugins, and direct audio capture from rekordbox. The audio callback runs without heap allocations or locks. 
 
 Also working on a standalone Daisy Seed version; the firmware and PCB are still at the prototype stage.
 
