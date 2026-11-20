@@ -32,10 +32,10 @@ Also working on a standalone PCB version.
 
 **[DAMASCUS](https://github.com/AxelMcKenna/DAMASCUS) - LLM inference engine for Apple Silicon, written in C++20 - [damascus-llm.dev](https://damascus-llm.dev)**
 
-- Implemented GGUF loading, byte-level BPE, Q4_K_M/Q6_K dequantization, grouped-query attention, KV-cache execution, and an end-to-end transformer forward pass. 
-- Checked the CPU path against a same-weights Hugging Face reference, with matching top-1 tokens and near-identical layer outputs. 
-
-Currently researching Metal execution, AMX-accelerated prefill, and CPU/GPU scheduling on M1.
+- Built a native Metal inference path for Llama 3.2 3B Instruct, with quantized GGUF loading and history-based speculative decoding that the target model verifies.
+- On a base M5, measured a **79.6 ms median** for a one-token CLI completion from launch through exit, versus 216.9 ms for llama.cpp and 973.5 ms for MLX-LM. [Benchmark](https://github.com/AxelMcKenna/DAMASCUS/blob/main/docs/benchmarks/m5-oneshot.md)
+- Averaged **64.27 tok/s** across eight fixed prompts, ahead of both measured llama.cpp configurations (57.36 and 58.18 tok/s) and behind MLX-LM with a 1B draft model (81.08 tok/s). [Benchmark](https://github.com/AxelMcKenna/DAMASCUS/blob/main/docs/benchmarks/m5-spec-results.md)
+- Validated the CPU forward pass against a same-weights Hugging Face reference, with matching top-1 tokens and near-identical layer outputs.
 
 <br>
 
