@@ -30,7 +30,7 @@ Also working on a standalone PCB version.
 <br>
 
 
-**[DAMASCUS](https://github.com/AxelMcKenna/DAMASCUS) - LLM inference engine for Apple Silicon, written in C++20 - [damascus-llm.dev](https://damascus-llm.dev)**
+**[DAMASCUS](https://github.com/AxelMcKenna/DAMASCUS) - LLM inference engine for Apple Silicon, written in C++20 
 
 - Built a native Metal inference path for Llama 3.2 3B Instruct, with quantized GGUF loading and history-based speculative decoding that the target model verifies.
 - On a base M5, measured a **79.6 ms median** for a one-token CLI completion from launch through exit, versus 216.9 ms for llama.cpp and 973.5 ms for MLX-LM. [Benchmark](https://github.com/AxelMcKenna/DAMASCUS/blob/main/docs/benchmarks/m5-oneshot.md)
