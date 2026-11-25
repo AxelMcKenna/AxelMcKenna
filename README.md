@@ -4,7 +4,7 @@ Software engineering at the University of Canterbury. Generally interested in hi
 
 ## Now
 
-**Halter. - Software Engineering Intern.**
+**Halter - Software Engineering Intern.**
 
 **[ARRO](https://arro.co.nz) - Co-founder & CEO.** 
 
