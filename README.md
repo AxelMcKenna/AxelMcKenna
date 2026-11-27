@@ -6,6 +6,8 @@ Software engineering at the University of Canterbury. Generally interested in hi
 
 **Halter - Software Engineering Intern.**
 
+Doing cool shit on the platform team.
+
 **[ARRO](https://arro.co.nz) - Co-founder & CEO.** 
 
 Building software for New Zealand's building-consent process. We analyse architectural drawings sets to preemptively raise likely RFIs before architects lodge for consent. Led a team of 5 from hackathon win to revenue in 5 months.
